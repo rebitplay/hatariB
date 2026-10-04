@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>hatariB WASM feasibility proof</title>
+  <style>
+    body {
+      background: #15191c;
+      color: #eef;
+      font: 16px system-ui;
+      margin: 20px;
+    }
+    canvas {
+      display: block;
+      max-width: 100%;
+      image-rendering: pixelated;
+      margin: 16px 0;
+    }
+    button {
+      font: inherit;
+      padding: 8px 16px;
+    }
+  </style>
+  <h1>hatariB WASM proof</h1>
+  <p id="status">Loading…</p>
+  <button id="run">Run / pause</button>
+  <button id="sound">Enable sound</button>
+  <canvas></canvas>
+  <p>
+    CORE: Space to start or dive, Esc to exit. Deputy Arsh: Enter to start;
+    Z/X/C to jump/kick/slide.
+  </p>
+  <script type="module" src="./proof.mjs"></script>
+</html>

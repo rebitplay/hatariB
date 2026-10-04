@@ -1,0 +1,30 @@
+{
+  "kind": "feasibility-proof",
+  "core": "hatarib",
+  "upstream": "https://github.com/bbbradsmith/hatariB",
+  "zlibCommit": "570720b0c24f9686c33f35a1b3165c1f568b96be",
+  "emscripten": "3.1.74",
+  "optimization": "-O3 -flto",
+  "threads": false,
+  "asyncify": false,
+  "initialMemoryBytes": 134217728,
+  "artifacts": {
+    "hatarib.a": {
+      "bytes": 28337644,
+      "gzipBytes": 10352513,
+      "sha256": "b866a52df8922ae02a85674e3bb2fe18e4552c67ca69a06b05d1be805f7621d5"
+    },
+    "hatarib-proof.mjs": {
+      "bytes": 119661,
+      "gzipBytes": 33879,
+      "sha256": "1b78a7c04940d9453ef931dd4d80893bbc91b3a31c1775775f740202c5ace399"
+    },
+    "hatarib-proof.wasm": {
+      "bytes": 16780765,
+      "gzipBytes": 2316539,
+      "sha256": "a7245ab8f7a9ec0944e39e4b07b866a898fcf600ae877f1d5bdc78e0a1c36ae2"
+    }
+  },
+  "upstreamCommit": "4fb7ebdfa14d5de7df3076143f255d7d8bf0323c",
+  "proofFrontendSha256": "df119e7af643237e1699aa23af5aa9b781beaaade58689f917144cec3fb0339f"
+}
